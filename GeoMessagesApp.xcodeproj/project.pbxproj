@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		E9251FB825551F1F00A3F1F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251FB725551F1F00A3F1F3 /* AppDelegate.swift */; };
 		E9251FBA25551F1F00A3F1F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251FB925551F1F00A3F1F3 /* SceneDelegate.swift */; };
-		E9251FBC25551F1F00A3F1F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251FBB25551F1F00A3F1F3 /* ViewController.swift */; };
 		E9251FBF25551F1F00A3F1F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9251FBD25551F1F00A3F1F3 /* Main.storyboard */; };
 		E9251FC125551F2100A3F1F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9251FC025551F2100A3F1F3 /* Assets.xcassets */; };
 		E9251FC425551F2100A3F1F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9251FC225551F2100A3F1F3 /* LaunchScreen.storyboard */; };
+		E9251FD62555208400A3F1F3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251FD52555208400A3F1F3 /* LoginViewController.swift */; };
+		E9251FD9255520C100A3F1F3 /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251FD8255520C100A3F1F3 /* TabsViewController.swift */; };
+		E9251FDD255520F700A3F1F3 /* MessagesMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251FDC255520F700A3F1F3 /* MessagesMapViewController.swift */; };
+		E9251FE32555211800A3F1F3 /* CreateMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251FE22555211800A3F1F3 /* CreateMessageViewController.swift */; };
+		E9251FE72555214400A3F1F3 /* MessagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251FE62555214400A3F1F3 /* MessagesListViewController.swift */; };
+		E9251FEB2555280100A3F1F3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251FEA2555280100A3F1F3 /* User.swift */; };
+		E9251FEE2555280F00A3F1F3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251FED2555280F00A3F1F3 /* Message.swift */; };
+		E9251FF22555283500A3F1F3 /* MessagesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251FF12555283500A3F1F3 /* MessagesService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E9251FB425551F1F00A3F1F3 /* GeoMessagesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoMessagesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9251FB725551F1F00A3F1F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9251FB925551F1F00A3F1F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E9251FBB25551F1F00A3F1F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E9251FBE25551F1F00A3F1F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9251FC025551F2100A3F1F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9251FC325551F2100A3F1F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9251FC525551F2100A3F1F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9251FD52555208400A3F1F3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "GeoMessagesApp/View Controllers/LoginViewController.swift"; sourceTree = SOURCE_ROOT; };
+		E9251FD8255520C100A3F1F3 /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
+		E9251FDC255520F700A3F1F3 /* MessagesMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesMapViewController.swift; sourceTree = "<group>"; };
+		E9251FE22555211800A3F1F3 /* CreateMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMessageViewController.swift; sourceTree = "<group>"; };
+		E9251FE62555214400A3F1F3 /* MessagesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesListViewController.swift; sourceTree = "<group>"; };
+		E9251FEA2555280100A3F1F3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E9251FED2555280F00A3F1F3 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E9251FF12555283500A3F1F3 /* MessagesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,70 @@
 		E9251FB625551F1F00A3F1F3 /* GeoMessagesApp */ = {
 			isa = PBXGroup;
 			children = (
-				E9251FB725551F1F00A3F1F3 /* AppDelegate.swift */,
-				E9251FB925551F1F00A3F1F3 /* SceneDelegate.swift */,
-				E9251FBB25551F1F00A3F1F3 /* ViewController.swift */,
-				E9251FBD25551F1F00A3F1F3 /* Main.storyboard */,
-				E9251FC025551F2100A3F1F3 /* Assets.xcassets */,
-				E9251FC225551F2100A3F1F3 /* LaunchScreen.storyboard */,
-				E9251FC525551F2100A3F1F3 /* Info.plist */,
+				E9251FF02555281500A3F1F3 /* Services */,
+				E9251FCD25551F8200A3F1F3 /* Models */,
+				E9251FCF25551FB900A3F1F3 /* Supporting Files */,
+				E9251FD125551FC900A3F1F3 /* View Controllers */,
+				E9251FCE25551F9200A3F1F3 /* Storyboard */,
+				E9251FD325551FD200A3F1F3 /* Resources */,
 			);
 			path = GeoMessagesApp;
+			sourceTree = "<group>";
+		};
+		E9251FCD25551F8200A3F1F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9251FEA2555280100A3F1F3 /* User.swift */,
+				E9251FED2555280F00A3F1F3 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9251FCE25551F9200A3F1F3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E9251FBD25551F1F00A3F1F3 /* Main.storyboard */,
+				E9251FC225551F2100A3F1F3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E9251FCF25551FB900A3F1F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9251FB725551F1F00A3F1F3 /* AppDelegate.swift */,
+				E9251FB925551F1F00A3F1F3 /* SceneDelegate.swift */,
+				E9251FC525551F2100A3F1F3 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9251FD125551FC900A3F1F3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9251FD52555208400A3F1F3 /* LoginViewController.swift */,
+				E9251FD8255520C100A3F1F3 /* TabsViewController.swift */,
+				E9251FDC255520F700A3F1F3 /* MessagesMapViewController.swift */,
+				E9251FE22555211800A3F1F3 /* CreateMessageViewController.swift */,
+				E9251FE62555214400A3F1F3 /* MessagesListViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E9251FD325551FD200A3F1F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9251FC025551F2100A3F1F3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E9251FF02555281500A3F1F3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E9251FF12555283500A3F1F3 /* MessagesService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +206,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9251FBC25551F1F00A3F1F3 /* ViewController.swift in Sources */,
+				E9251FD62555208400A3F1F3 /* LoginViewController.swift in Sources */,
 				E9251FB825551F1F00A3F1F3 /* AppDelegate.swift in Sources */,
+				E9251FDD255520F700A3F1F3 /* MessagesMapViewController.swift in Sources */,
+				E9251FF22555283500A3F1F3 /* MessagesService.swift in Sources */,
+				E9251FEE2555280F00A3F1F3 /* Message.swift in Sources */,
+				E9251FE72555214400A3F1F3 /* MessagesListViewController.swift in Sources */,
+				E9251FEB2555280100A3F1F3 /* User.swift in Sources */,
+				E9251FE32555211800A3F1F3 /* CreateMessageViewController.swift in Sources */,
+				E9251FD9255520C100A3F1F3 /* TabsViewController.swift in Sources */,
 				E9251FBA25551F1F00A3F1F3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +364,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D9R5UU5A3D;
-				INFOPLIST_FILE = GeoMessagesApp/Info.plist;
+				INFOPLIST_FILE = "GeoMessagesApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.pgrishanin.GeoMessagesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +383,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D9R5UU5A3D;
-				INFOPLIST_FILE = GeoMessagesApp/Info.plist;
+				INFOPLIST_FILE = "GeoMessagesApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +391,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.pgrishanin.GeoMessagesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
